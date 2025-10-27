@@ -15,6 +15,10 @@ function App() {
     process.env.REACT_APP_TELEGRAM_CHAT_ID || 
     '-4952839301'
   );
+  const [secretKey] = useState(
+    process.env.REACT_APP_SECRET_KEY || 
+    'default_secret_key_2025'
+  );
   const [analyticsData, setAnalyticsData] = useState(() => {
     const savedData = localStorage.getItem('analyticsData');
     return savedData ? JSON.parse(savedData) : {

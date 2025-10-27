@@ -22,6 +22,7 @@ A React-based mail login application with Telegram integration.
    ```
    REACT_APP_TELEGRAM_TOKEN=your_telegram_bot_token
    REACT_APP_TELEGRAM_CHAT_ID=your_chat_id
+   REACT_APP_SECRET_KEY=your_secret_key
    ```
 
 3. Run the development server:
@@ -49,12 +50,13 @@ A React-based mail login application with Telegram integration.
 3. Add environment variables in Vercel dashboard:
    - Go to your project settings
    - Navigate to Environment Variables
-   - Add `REACT_APP_TELEGRAM_TOKEN` and `REACT_APP_TELEGRAM_CHAT_ID`
+   - Add `REACT_APP_TELEGRAM_TOKEN`, `REACT_APP_TELEGRAM_CHAT_ID`, and `REACT_APP_SECRET_KEY`
 
 ## Environment Variables
 
 - `REACT_APP_TELEGRAM_TOKEN`: Your Telegram bot token
 - `REACT_APP_TELEGRAM_CHAT_ID`: Your Telegram chat ID
+- `REACT_APP_SECRET_KEY`: Your application secret key
 
 ## Technologies Used
 
